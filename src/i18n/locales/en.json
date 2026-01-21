@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "workflow": "Workflow",
+    "technologies": "Technologies",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "We Build Your Digital Solutions Professionally",
+    "subtitle": "From Design to Launch",
+    "description": "We provide website and application development services with the highest quality standards, focusing on user experience and outstanding performance",
+    "cta": "Start Your Project Now"
+  },
+  "services": {
+    "title": "Types of Websites and Applications We Offer",
+    "subtitle": "Comprehensive digital solutions for all your needs",
+    "ecommerce": {
+      "title": "Complete E-commerce Stores",
+      "description": "Professional sales platforms with secure payment systems and advanced inventory management"
+    },
+    "educational": {
+      "title": "Educational Platforms",
+      "description": "Learning management systems and paid content with interactive experiences"
+    },
+    "corporate": {
+      "title": "Corporate Websites",
+      "description": "Professional websites that reflect your company's identity and enhance its digital presence"
+    },
+    "landing": {
+      "title": "Marketing Landing Pages",
+      "description": "Conversion-optimized pages to increase sales rates"
+    },
+    "booking": {
+      "title": "Booking & Appointment Systems",
+      "description": "Smart booking systems with integrated calendar and automatic notifications"
+    },
+    "dashboard": {
+      "title": "Admin Dashboards",
+      "description": "Advanced management systems with comprehensive reports and analytics"
+    },
+    "saas": {
+      "title": "Custom SaaS Platforms",
+      "description": "Scalable cloud software systems tailored to your needs"
+    },
+    "closing": "We design custom digital solutions that meet your unique requirements"
+  },
+  "workflow": {
+    "title": "How We Work",
+    "subtitle": "A clear methodology that ensures your project's success",
+    "step1": {
+      "title": "Requirements Analysis",
+      "description": "We understand your needs and goals precisely to create a solid action plan"
+    },
+    "step2": {
+      "title": "Design & User Experience",
+      "description": "We design attractive and user-friendly interfaces that reflect your identity"
+    },
+    "step3": {
+      "title": "Development",
+      "description": "We build robust technical solutions using the latest technologies"
+    },
+    "step4": {
+      "title": "Testing & Optimization",
+      "description": "We test every aspect to ensure optimal performance and quality"
+    },
+    "step5": {
+      "title": "Launch & Support",
+      "description": "We launch your project and provide ongoing support to ensure its success"
+    }
+  },
+  "technologies": {
+    "title": "Technologies We Use",
+    "subtitle": "Latest technologies to build outstanding solutions",
+    "web": {
+      "title": "Web Development",
+      "description": "React.js and Node.js for building fast, scalable web applications"
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Flutter for building Android & iOS apps with a unified codebase"
+    },
+    "note": "We easily convert your website into a mobile app"
+  },
+  "contact": {
+    "title": "Contact Us and Start Your Project Now",
+    "subtitle": "Our team is ready to help you achieve your digital vision",
+    "egypt": "Egypt",
+    "kuwait": "Kuwait",
+    "saudi": "Saudi Arabia",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "company": "Clickat",
+    "rights": "All Rights Reserved",
+    "quickLinks": "Quick Links",
+    "description": "We build modern, scalable, and high-performance digital solutions tailored to your business needs."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  }
+}
