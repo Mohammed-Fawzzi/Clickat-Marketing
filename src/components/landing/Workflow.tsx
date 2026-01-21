@@ -17,11 +17,11 @@ const Workflow = () => {
   return (
     <section
       id="workflow"
-      className="py-20 md:py-32 bg-background"
+      className="py-20 md:py-32 bg-background overflow-x-hidden"
       dir={isRTL ? "rtl" : "ltr"}
     >
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -57,8 +57,8 @@ const Workflow = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.15 }}
-                  className={`relative flex items-start gap-6 pb-12 last:pb-0 md:gap-0 ${
-                    isEven ? "md:flex-row" : "md:flex-row-reverse"
+                  className={`relative flex items-start pb-12 last:pb-0 ${
+                    isEven ? "lg:flex-row" : "lg:flex-row-reverse"
                   }`}
                 >
                   {/* Step Icon – LG only */}
@@ -68,9 +68,16 @@ const Workflow = () => {
 
                   {/* Content Card */}
                   <div
-                    className={`ms-28 md:ms-0 md:w-[calc(50%-3rem)] ${
-                      isEven ? "md:me-auto md:pe-8" : "md:ms-auto md:ps-8"
-                    }`}
+                    className={`
+                      w-full
+                      mx-auto lg:mx-0
+                      lg:w-[calc(50%-3rem)]
+                      ${
+                        isEven
+                          ? "lg:me-auto lg:pe-8"
+                          : "lg:ms-auto lg:ps-8"
+                      }
+                    `}
                   >
                     <div className="p-6 bg-card border border-border rounded-xl hover:border-accent/30 transition-colors">
                       <div className="flex items-center gap-3 mb-3">
